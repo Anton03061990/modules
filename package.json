@@ -1,0 +1,33 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton03061990/modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton03061990/modules/issues"
+  },
+  "homepage": "https://github.com/Anton03061990/modules#readme",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "moment": "^2.29.4",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
