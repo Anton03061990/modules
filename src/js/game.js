@@ -10,6 +10,7 @@ export function writeGameSaving() {}
 
 
 
+
 class Game {
     start() {
       console.log('game started');
